@@ -1,11 +1,14 @@
+package pkg2_2;
 import java.util.Scanner;
 public class Q4 {
-	public static void main(String[] args)
-	{
-	Scanner in=new Scanner(System.in);
-	double side;
-	System.out.print("Enter the side:");
-	side=in.nextDouble();
-	System.out.print("The area of the hexagon is "+(3*Math.sqrt(3)*Math.pow(side,2))/2);
-}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Scanner in=new Scanner(System.in);
+     System.out.print("Enter the value of t:");
+     double t=in.nextDouble();
+     double res=Math.cos(5*t)+Math.sin(7*t);
+     System.out.print(res);
+	}
+
 }
